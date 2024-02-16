@@ -18,7 +18,7 @@ Bio2Py automates the process of loading influent data, running simulations and s
 
 In order to use Bio2Py, BioWin simulation window must be **fully** visible. Since Bio2Py relies on image recognition in order to work, any pop-up message or warning window that covers BioWin program window will cause the API's actions interruption. 
 
-**Before using Bio2Py:**
+**Before using Bio2Py**
 - Open BioWin simulation file.
 - Set the zoom to 100% on BioWin window.
 - Manually run a single flow balance and steady state/dynamic simulation. Check for any warning messages that could interrupt Bio2Py process. If necessary, the user may consider disabling BioWin alarms to prevent Bio2Py interruption.  
@@ -72,11 +72,14 @@ The main functions were built based on these auxiliary functions.
 Main Functions
 ----------------
 **Steady state simulations**
+
 The 'steady_state_simulations' function allows the user to run **multiple** steady state simulations for constant influent type or variable influent type, with a single command. 
+
 The 'steady_state_simulations' function has the option of running a flow balance before running the steady state simulation, a good practice when working with complex systems. 
 
 Args:
     - influent_type: Specify whether the influent is constant ('constant') or variable ('variable') over time.
+    
     - influent:
         - If the influent type is constant (DataFrame): 
             Each row corresponds to different influent scenarios to be tested. Columns represent influent characteristics in the same order as in BioWin: ['Flow', 'COD (mg-COD/L)', 'TKN (mg-N/L)', 'TP (mg-P/L)', 'TS (mg-S/L)', 'Nitrate (mg-N/L)', 'pH', 'Alkalinity (mmol/L)', 'ISS total (mg-ISS/L)', 'Metal soluble - Ca (mg/L)', 'Metal soluble - Mg (mg/L)', 'Gas - Dissolved O2 (mg/L)'].
