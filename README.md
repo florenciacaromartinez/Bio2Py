@@ -42,6 +42,8 @@ In order to use Bio2Py, BioWin simulation window must be **fully** visible. Sinc
       simulation_window,influent_window=Bio2Py.setting_the_environment()
 - Use Bio2Py funcions to automate simulation process in BioWin. 
 
+The 'Bio2Py Test' folder contains a video titled 'Bio2Py Test and Usage' demonstrating these steps.
+
 Functions summary
 ---------------
 **Main Functions**
@@ -143,7 +145,7 @@ Test
 --------------
 The 'Bio2Py' test folder contains a notebook designed to test the main functions of Bio2Py. Additionally, it includes a BioWin file that can be utilized for testing purposes. Since the main functions are built using the auxiliary functions, if the test of the main functions is successful, the user should not have problems using the auxiliary functions.
 
-The folder also includes a video demonstrating the testing of Bio2Py, so the user can have a better understanding of how Bio2Py works and its usage. 
+The folder also includes a video titled 'Bio2Py Test and Usage' demonstrating the testing of Bio2Py, so the user can have a better understanding of how Bio2Py works and its usage. 
 
 
 Implementation examples 
