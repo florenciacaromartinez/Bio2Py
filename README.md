@@ -171,7 +171,7 @@ We have a physicochemical removal system for phosphorus (P) using FeCl3 in an ef
 
 Bio2Py facilitates running numerous simulations. In this case, we ran 300 simulations, allowing us to generate response surfaces for P and pH in the effluent concerning FeCl3 and NaOH consumption. By analyzing the response surfaces, we can observe that various combinations of FeCl3 and NaOH achieve similar levels of P removal. Performing these simulations manually would be tedious and prone to errors when transferring data. 
 
-***Conclusions**
+***Conclusions***
 
 By analyzing the response surfaces, the optimal chemical consumption rates that best suit the plant's requirements could be chosen. Additionally, the generated data can be used to refine a model that correlates the concentration of phosphorus (P) in the effluent with the chemical consumption rates.
 
