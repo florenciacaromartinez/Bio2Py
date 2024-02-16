@@ -79,8 +79,6 @@ The 'steady_state_simulations' function has the option of running a flow balance
 
 Args:
 - influent_type: Specify whether the influent is constant ('constant') or variable ('variable') over time.
-Args:
-- influent_type: Specify whether the influent is constant ('constant') or variable ('variable') over time.
 
 - influent:
     - If the influent type is constant (DataFrame):
@@ -126,10 +124,14 @@ Args:
             - Each Dictionary key column corresponds to the influent's parameters in the same order of appearance in BioWin: column_names = ['Time','Flow', 'COD (mg-COD/L)', 'TKN (mg-N/L)', 'TP (mg-P/L)', 'TS (mg-S/L)', 'Nitrate (mg-N/L)', 'pH', 'Alkalinity (mmol/L)', 'ISS total (mg-ISS/L)', 'Metal soluble - Ca (mg/L)', 'Metal soluble - Mg (mg/L)', 'Gas - Dissolved O2 (mg/L)'].
             - Each Dictionary key row corresponds to the influent's parameters at the time specified in the time grid (minutes, days, hours).
             - Dictionary entries should be ordered from the one with the least number of rows to the one with the most.
-    - start_conditions (str): start conditions for the dynamic simulation. Choose between current values ('current') or last steady state values ('last').
-    - days (int): length of the dynamic simulation in days. 
-    - max_simulation_time (int): sets the maximum time for running the dynamic simulation. If the time for finding the solution is exceeds the maximum time, the simulation will stop. 
-    - filepath (optional): only if influent_type='variable'. When working with variable influen data .txt files are generated for loading influent data to BioWin. Filepath specifies where the .txt files are saved. The chosen filepath must be the same as the filepath selected in BioWin influent window to load the data. Choosing the same filepath where BioWin file is located is recommended. 
+
+- start_conditions (str): start conditions for the dynamic simulation. Choose between current values ('current') or last steady state values ('last').
+
+- days (int): length of the dynamic simulation in days.
+
+- max_simulation_time (int): sets the maximum time for running the dynamic simulation. If the time for finding the solution is exceeds the maximum time, the simulation will stop.
+  
+- filepath (optional): only if influent_type='variable'. When working with variable influen data .txt files are generated for loading influent data to BioWin. Filepath specifies where the .txt files are saved. The chosen filepath must be the same as the filepath selected in BioWin influent window to load the data. Choosing the same filepath where BioWin file is located is recommended. 
     
 Returns:
 
