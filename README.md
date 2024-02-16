@@ -147,28 +147,32 @@ The folder also includes a video demonstrating the testing of Bio2Py, so the use
 Implementation examples 
 ---------------
 **Implementation example 1: Evaluation of P removal capacity of a EBPR system**
+
 The folder ´implementation example 1´ contains a notebook with a simple example of Bio2Py implementation to illustrate it's use and applicability. 
 
 In this example, the maximum capacity of phosphorus removal of a proposed wastewater treatment plant is evaluated. In order to do this, multiple simulations must be performed by changing the influent TP until the effluent TP is larger than the maximum value accepted by the regulatory constraints. This task is automated using the Bio2Py API.
 
-The corresponding BioWin simulation file can also be found on the folder. 
+The corresponding BioWin simulation file can also be found on the folder. A video is also included, so the user can see Bio2Py in action. 
 
 **Implementation example 2: Evaluation of chemical consumes for removing P**
+
 The folder implementation example 2 contains a notebook with a simple example of how the user can combine Bio2Py auxiliary functions to automate diffrent actions in BioWin that are not defined on first hand as main functions in Bio2Py.
 
 We have a physicochemical removal system for phosphorus (P) using FeCl3 in an effluent with specific characteristics. The goal was to determine the FeCl3 and NaOH consumption required to achieve different levels of P removal while maintaining the effluent pH suitable for final disposal.
 
-Steps:
+***Steps***
 1. Define a range of FeCl3 and NaOH flow rates to test.
 2. Randomly select N points within these ranges.
 3. Run N simulations in BioWin, varying FeCl3 and NaOH flow rates for each simulation. --> This can be automated using Bio2Py auxiliary functions!
 4. Record the P and pH values in the effluent for each (FeCl3, NaOH) pair. --> This can be automated using Bio2Py auxiliary functions!
 5. Visualize the results to understand how P and pH vary with FeCl3 and NaOH.
 
-Benefits of Bio2Py:
+***Benefits of Bio2Py***
+
 Bio2Py facilitates running numerous simulations. In this case, we ran 300 simulations, allowing us to generate response surfaces for P and pH in the effluent concerning FeCl3 and NaOH consumption. By analyzing the response surfaces, we can observe that various combinations of FeCl3 and NaOH achieve similar levels of P removal. Performing these simulations manually would be tedious and prone to errors when transferring data. 
 
-Conclusions
+***Conclusions**
+
 By analyzing the response surfaces, the optimal chemical consumption rates that best suit the plant's requirements could be chosen. Additionally, the generated data can be used to refine a model that correlates the concentration of phosphorus (P) in the effluent with the chemical consumption rates.
 
 
