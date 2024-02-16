@@ -154,7 +154,7 @@ The folder ´implementation example 1´ contains a notebook with a simple exampl
 
 In this example, the maximum capacity of phosphorus removal of a proposed wastewater treatment plant is evaluated. In order to do this, multiple simulations must be performed by changing the influent TP until the effluent TP is larger than the maximum value accepted by the regulatory constraints. This task is automated using the Bio2Py API.
 
-The corresponding BioWin simulation file can also be found on the folder. A video is also included, so the user can see Bio2Py in action. 
+The corresponding BioWin simulation file can also be found on the folder. A video is also included, allowing the user to see Bio2Py in action, with indications provided on when the user is active and when Bio2Py performs actions.
 
 **Implementation example 2: Evaluation of chemical consumes for removing P**
 
