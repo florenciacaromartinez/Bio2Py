@@ -145,7 +145,7 @@ Test
 --------------
 The 'Bio2Py' test folder contains a notebook designed to test the main functions of Bio2Py. Additionally, it includes a BioWin file that can be utilized for testing purposes. Since the main functions are built using the auxiliary functions, if the test of the main functions is successful, the user should not have problems using the auxiliary functions.
 
-The folder also includes a video titled 'Bio2Py Test and Usage' demonstrating the testing of Bio2Py, so the user can have a better understanding of how Bio2Py works and its usage. 
+The folder also includes a video titled 'Bio2Py Test and Usage', which demonstrates the testing of Bio2Py. This video provides users with a better understanding of how Bio2Py works and its usage. It indicates when the user is active and when Bio2Py performs actions.
 
 
 Implementation examples 
@@ -156,7 +156,7 @@ The folder ´implementation example 1´ contains a notebook with a simple exampl
 
 In this example, the maximum capacity of phosphorus removal of a proposed wastewater treatment plant is evaluated. In order to do this, multiple simulations must be performed by changing the influent TP until the effluent TP is larger than the maximum value accepted by the regulatory constraints. This task is automated using the Bio2Py API.
 
-The corresponding BioWin simulation file can also be found on the folder. A video is also included, allowing the user to see Bio2Py in action, with indications provided on when the user is active and when Bio2Py performs actions.
+The corresponding BioWin simulation file can also be found on the folder. A video is also included, allowing the user to see Bio2Py in action.
 
 **Implementation example 2: Evaluation of chemical consumes for removing P**
 
