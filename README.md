@@ -47,8 +47,8 @@ The 'Bio2Py Test' folder contains a file titled 'Bio2Py Test and Usage video' wi
 Functions summary
 ---------------
 **Main Functions**
-- steady_state_simulations
-- dynamic_simulations
+- steady_state_simulations: runs multiple steady state simulations for constant/variable influent and saves simulation results with a single command.
+- dynamic_simulations: runs multiple dynamic simulations for a constant/variable influent and saves simulation results with a single command. 
 
 **Auxiliary functions**
 
@@ -70,8 +70,8 @@ Functions summary
 - minimize
 
 Auxiliary functions can be combined to create new functions and streamline the simulation of processes in BioWin. 
-The main functions were built based on these auxiliary functions.
-More information regarding the functions is available in the file 'Functions'. 
+The main functions were built based on the auxiliary functions.
+More information regarding the functions is available in the file 'Bio2Py Functions'. 
 
 Test
 --------------
