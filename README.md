@@ -82,7 +82,7 @@ The 'Bio2Py Test' folder contains a notebook designed to test the main functions
 The folder also includes a video titled 'Bio2Py Test and Usage video', which demonstrates the testing of Bio2Py. This video provides users with a better understanding of how Bio2Py works and its usage. It indicates when the user is active and when Bio2Py performs actions.
 
 
-Implementation examples 
+Implementation Examples 
 ---------------
 ### --> Implementation Example 1: Evaluation of Phosphorus Removal Capacity of an EBPR System
 
