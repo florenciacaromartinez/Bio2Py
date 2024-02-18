@@ -1,4 +1,4 @@
-# Bio2Py 
+# **Bio2Py** 
 Bio2Py (BioWin to Python) is a Python package that runs BioWin simulations using Python. 
 This API is based on the usage of PyAutoGUI Python package to automate loading influent data, running steady-state and dynamic simulations, and saving simulation results without manual intervention. 
 
@@ -77,24 +77,24 @@ More information regarding the functions is available in the file 'Bio2Py Functi
 
 Test
 --------------
-The 'Bio2Py' test folder contains a notebook designed to test the main functions of Bio2Py. Additionally, it includes a BioWin file that can be utilized for testing purposes. Since the main functions are built using the auxiliary functions, if the test of the main functions is successful, the user should not have problems using the auxiliary functions.
+The 'Bio2Py Test' folder contains a notebook designed to test the main functions of Bio2Py. Additionally, it includes a BioWin file that can be utilized for testing purposes. Since the main functions are built using the auxiliary functions, if the test of the main functions is successful, the user should not have problems using the auxiliary functions.
 
 The folder also includes a video titled 'Bio2Py Test and Usage video', which demonstrates the testing of Bio2Py. This video provides users with a better understanding of how Bio2Py works and its usage. It indicates when the user is active and when Bio2Py performs actions.
 
 
 Implementation examples 
 ---------------
-### Implementation Example 1: Evaluation of Phosphorus Removal Capacity of an EBPR System
+### --> Implementation Example 1: Evaluation of Phosphorus Removal Capacity of an EBPR System
 
-The folder ´Implementation Example 1´ contains a notebook with a simple example of Bio2Py implementation to illustrate it's use and applicability. 
+The folder 'Implementation Example 1' contains a notebook with a simple example of Bio2Py implementation to illustrate it's use and applicability. 
 
 In this example, the maximum capacity of phosphorus removal of a proposed wastewater treatment plant is evaluated. In order to do this, multiple simulations must be performed by changing the influent TP until the effluent TP is larger than the maximum value accepted by the regulatory constraints. This task is automated using the Bio2Py API.
 
 The corresponding BioWin simulation file can also be found on the folder. A video is also included, allowing the user to see Bio2Py in action.
 
-### Implementation Example 2: Evaluation of Chemical Consumption for Physicochemical Phosphorus Removal
+### --> Implementation Example 2: Evaluation of Chemical Consumption for Physicochemical Phosphorus Removal
 
-The folder implementation example 2 contains a notebook with a simple example of how the user can combine Bio2Py auxiliary functions to automate diffrent actions in BioWin that are not defined on first hand as main functions in Bio2Py. It also demonstrates how Bio2Py can enhance data acquisition processes. 
+The folder 'Implementation Example 2' contains a notebook with a simple example of how the user can combine Bio2Py auxiliary functions to automate diffrent actions in BioWin that are not defined on first hand as main functions in Bio2Py. It also demonstrates how Bio2Py can enhance data acquisition processes. 
 
 In this example, we explore a physicochemical phosphorus removal system using FeCl3, within a specified influent. NaOH is used for adjusting pH.
 The goal was to generate response surfaces for effluent TP and pH in relation to FeCl3 and NaOH consumption. This analysis could assist in determining the optimal combination of chemicals for influents with particular characteristics. 
