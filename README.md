@@ -84,7 +84,7 @@ The folder also includes a video titled 'Bio2Py Test and Usage video', which dem
 
 Implementation examples 
 ---------------
-## Implementation example 1: Evaluation of Phosphorus Removal Capacity of an EBPR System
+### Implementation Example 1: Evaluation of Phosphorus Removal Capacity of an EBPR System
 
 The folder ´Implementation Example 1´ contains a notebook with a simple example of Bio2Py implementation to illustrate it's use and applicability. 
 
@@ -92,7 +92,7 @@ In this example, the maximum capacity of phosphorus removal of a proposed wastew
 
 The corresponding BioWin simulation file can also be found on the folder. A video is also included, allowing the user to see Bio2Py in action.
 
-## Implementation example 2: Evaluation of Chemical Consumption for Physicochemical Phosphorus Removal
+### Implementation Example 2: Evaluation of Chemical Consumption for Physicochemical Phosphorus Removal
 
 The folder implementation example 2 contains a notebook with a simple example of how the user can combine Bio2Py auxiliary functions to automate diffrent actions in BioWin that are not defined on first hand as main functions in Bio2Py. It also demonstrates how Bio2Py can enhance data acquisition processes. 
 
