@@ -115,3 +115,9 @@ The goal was to generate response surfaces for effluent TP and pH in relation to
 
 Bio2Py simplifies the execution of numerous simulations. In this example, 370 simulations were conducted by the API, enabling the generation of response surfaces for effluent TP and pH regarding FeCl3 and NaOH consumption. Analysis of these surfaces shows that various combinations of FeCl3 and NaOH achieve comparable levels of P removal.  other criteria such as minimizing costs, could be considered to determine the most suitable chemical consumption for the effluent plant.
 Manually performing these simulations would be laborious and prone to data transfer errors.
+
+Note
+---------------
+If you use Bio2Py in your work, please cite:
+
+Caro, F., Ferreira, J., Castelló, E., Pinto, J., Santiviago, C. Bio2Py: An API for integrating Python with BioWin for enhanced data acquisition in wastewater treatment simulations. Journal of Water Process Engineering (2024). [https://doi.org/10.1038/s43017-023-00431-y](https://doi.org/10.1016/j.jwpe.2024.105426)
