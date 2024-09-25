@@ -113,7 +113,7 @@ The goal was to generate response surfaces for effluent TP and pH in relation to
 
 ***Benefits of Bio2Py***
 
-Bio2Py simplifies the execution of numerous simulations. In this example, 370 simulations were conducted by the API, enabling the generation of response surfaces for effluent TP and pH regarding FeCl3 and NaOH consumption. Analysis of these surfaces shows that various combinations of FeCl3 and NaOH achieve comparable levels of P removal.  other criteria such as minimizing costs, could be considered to determine the most suitable chemical consumption for the effluent plant.
+Bio2Py simplifies the execution of numerous simulations. In this example, 370 simulations were conducted by the API, enabling the generation of response surfaces for effluent TP and pH regarding FeCl3 and NaOH consumption. Analysis of these surfaces shows that various combinations of FeCl3 and NaOH achieve comparable levels of P removal.  Other criteria such as minimizing costs, could be considered to determine the most suitable chemical consumption for the effluent plant.
 Manually performing these simulations would be laborious and prone to data transfer errors.
 
 Note
