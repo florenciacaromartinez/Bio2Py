@@ -1,4 +1,6 @@
 # **Bio2Py** 
+![graphical_abstract_new_v2](https://github.com/user-attachments/assets/d0a30d55-0041-4471-8652-bb4c943e3352)
+
 Bio2Py (BioWin to Python) is a Python package that runs BioWin simulations using Python. 
 This API is based on the usage of PyAutoGUI Python package to automate loading influent data, running steady-state and dynamic simulations, and saving simulation results without manual intervention. 
 
